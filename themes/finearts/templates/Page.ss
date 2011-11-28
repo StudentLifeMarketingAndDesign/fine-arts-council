@@ -9,7 +9,7 @@
         <link href='http://fonts.googleapis.com/css?family=Covered+By+Your+Grace' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" type="text/css" href="$ThemeDir/css/reset.css" />
-
+<link href='http://fonts.googleapis.com/css?family=Delius|Merriweather' rel='stylesheet' type='text/css'>
 		
 		<% require themedCSS(layout) %> 
 		
