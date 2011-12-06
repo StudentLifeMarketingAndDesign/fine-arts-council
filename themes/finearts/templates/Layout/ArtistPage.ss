@@ -3,7 +3,7 @@
 $Form
 	
 		<div id="leftcolumn" class="full">
-			<h2>Artists</h2>
+			<h2>$Title</h2>
 			$Content
 			
 			<div id="artist-list">
@@ -13,7 +13,7 @@ $Form
 					<h3>$Name</h3>
 						<p>
 							<% control ArtistsFromPage %>
-								$Name, 
+								$Name<% if Last %><% else %>,<% end_if %> 
 							<% end_control %>
 						</p>
 						

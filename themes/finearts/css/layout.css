@@ -35,10 +35,10 @@ a {text-decoration:none; outline:none; }
 }
 
 .artist-category {
-	width: 400px;
-	float: left;
+	/*width: 400px;
+	float: left;*/
 	margin-right: 10px;
-	min-height: 300px;
+	min-height: 100px;
 }
 .artist-category li#odd {
 	background: #ddd;

@@ -52,7 +52,7 @@ class ArtistCategory extends DataObject {
 	public function ArtistsFromPage(){
 		$page = Director::get_current_page();
 		
-		$artists = $this->getComponents("Artists", "ArtistPageID =".$page->ID);
+		$artists = $this->getComponents("Artists", "ArtistPageID =".$page->ID, "Name ASC");
 		return $artists;
 	}
 

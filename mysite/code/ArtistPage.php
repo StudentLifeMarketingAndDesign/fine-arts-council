@@ -42,7 +42,7 @@ class ArtistPage_Controller extends Page_Controller {
 	public static $allowed_actions = array (
 	);
 	public function Categories(){
-		$categories = DataObject::get("ArtistCategory");
+		$categories = DataObject::get("ArtistCategory", null, "Name ASC");
 		if($categories) return $categories;
 	
 	}
