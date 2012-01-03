@@ -188,3 +188,21 @@ div#leftcolumn.slider-page {
 	width: 800px;
 
 }
+
+.photofeature {
+	position:relative;
+	float:left; /* optional */
+}
+.photofeature-caption a{
+	color: white;
+
+}
+.photofeature .photofeature-caption {
+	position:absolute;
+	bottom:5px; /* in conjunction with left property, decides the text position */
+	left:0;
+	width:100%; /* optional, though better have one */
+	color: white;
+	padding: 5px;
+	background: rgba(0,0,0,0.8);
+}
