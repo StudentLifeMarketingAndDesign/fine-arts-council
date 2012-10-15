@@ -8,9 +8,9 @@
 
 <div id="content">
 	<div class="photofeature">
-		<a href="http://www.flickr.com/photos/fineartscouncil/sets/72157626798488775/" target="_blank"><img src="{$ThemeDir}/images/homepage_mainslider.jpg" /></a>
+		<a href="http://www.flickr.com/photos/fineartscouncil/sets/72157630046226100/" target="_blank"><img src="{$ThemeDir}/images/homepage_mainslider.jpg" /></a>
 		<div class="photofeature-caption">
-			<p><a href="http://www.flickr.com/photos/fineartscouncil/sets/72157626798488775/">The 2011 Holiday Thieves' Market was a huge success! Check out our photo gallery here!</a></p>
+			<p><a href="http://www.flickr.com/photos/fineartscouncil/sets/72157630046226100/">The 2012 Riverbank Art Fair was a huge success! Check out our photo gallery here!</a></p>
 		</div>
     </div>
     <div class="text">

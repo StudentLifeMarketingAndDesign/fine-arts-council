@@ -9,6 +9,7 @@ $Form
 			<div id="artist-list">
 				<% control Categories %>
 			
+				<% if ArtistsFromPage %>
 				<div class="artist-category">
 					<h3>$Name</h3>
 						<p>
@@ -18,6 +19,7 @@ $Form
 						</p>
 						
 				</div>
+				<% end_control %>
 			
 				<% end_control %>
 			<div class="clear"></div>

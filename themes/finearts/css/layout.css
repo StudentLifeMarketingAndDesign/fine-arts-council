@@ -93,7 +93,7 @@ div#next h2, div#next h2 a {font-family: 'Delius', arial, serif; margin:0px auto
 
 
 /*MAINCONTENT*/
-div#contentwrapper {background-color:#f2f9fd; height:100%; padding-bottom: 15px; /*padding-top: 25px;*/}
+div#contentwrapper {background-color:#f2f9fd; padding-bottom: 15px; /*padding-top: 25px;*/}
 div#contentwrapper p {font-size:18px;}
 div#content { width:985px; height:100%; margin:0 auto 0 auto; }
 /*end MAINCONTENT*/
