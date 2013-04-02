@@ -23,7 +23,7 @@
 <div id="wrapper">
 	<div id="header">
     	 <div id="headercontent">
-         	<h1 id="logo"><a href="$BaseHref">The University of Iowa Fine Arts Council</a></h1>
+         	<h1 id="logo"><a href="$BaseHref"><img src="{$ThemeDir}/images/logo.png" alt="Fine Arts Council"/></a></h1>
             <h2><a href="$BaseHref">Art Markets</a></h2>
          </div>
     </div>

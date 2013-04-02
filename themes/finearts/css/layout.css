@@ -3,7 +3,10 @@
 div#wrapper {height:100%;}
 ul li {list-style-type:none; font-family: 'Merriweather',arial,serif;}
 ul {margin-left:-40px;}
-#contentwrapper {background-color:#f2f9fd; background-image: url(../images/content_background.png); min-height: 500px;}
+#contentwrapper {background-color:#f2f9fd; background-image: url(../images/content_background.png); min-height: 500px;
+	text-shadow: 0 1px 0 white;
+	
+}
 body {background-color:#005f5c; margin:0; padding:0;}
 .clear {clear:both;}
 /*end UNIVERSAL styles */
@@ -58,6 +61,11 @@ div#leftcolumn #artist-list h3{
 	font-size: 28px;
 	text-align: center;
 } 
+
+h4 {
+	color: #1C76AF;
+	
+}
 /*end TYPOGRAPHY*/
 
 /* Forms */
@@ -73,22 +81,23 @@ input.text, textarea { width: 80%; font-size: 25px;}
 div#header {background-image:url(../images/stripes.png); background-repeat:repeat-x; height:186px; margin:0;padding:0; width:auto;}
 div#headercontent {width:985px; margin:0 auto 0 auto;  }
 h1#logo {margin:0;}
-h1#logo a{height:180px; width:433px; background:url(../images/logo.png) no-repeat 0 -20px; text-indent:-9999px; margin:0; padding:0; float:left; }
-div#header h2 a{float:left; color:white; font-size:90px; margin:55px 0 0 0; height:85px; font-family: 'Delius', arial, serif; font-weight:100;  }
+/*h1#logo a{height:180px; width:433px; background:url(../images/logo.png) no-repeat 0 -20px; text-indent:-9999px; margin:0; padding:0; float:left; }*/
+h1#logo {float: left;}
+div#header h2 a{float:left; color:white; font-size:90px; margin:55px 0 0 0; height:85px; font-family: 'Delius', arial, serif; font-weight:100; text-shadow: 0 1px 0 #333; margin-left: 30px; }
 /*end HEADER*/
 
 /*NAVIGATION*/
-div#nav {background-color:#005f5c; min-height:70px; margin:0; padding:0; background-image: url(../images/nav_background.png);}
-div#nav ul {width:985px; margin:0 auto 0 auto; padding:24px 0 0 0; }
-div#nav ul li {display:inline; list-style-type:none; padding-right:20px;  }
-div#nav ul li span {text-decoration:none; color:#cd8844; font-size:20px; text-transform:lowercase; font-family: 'Delius', arial, serif; font-weight:100;  }
-div#nav ul li a {text-decoration:none; color:white; font-size:20px; text-transform:lowercase; font-family: 'Delius', arial, serif; font-weight:100; margin:0; padding:0; }
+div#nav {background-color:#005f5c; margin:0; padding:0; background-image: url(../images/nav_background.png);}
+div#nav ul {width:985px; margin:0 auto 0 auto; padding:10px 0; }
+div#nav ul li {display:inline; list-style-type:none; padding-right:30px; font-size: 24px; text-shadow: 0 -1px 0 #074442; }
+div#nav ul li span {text-decoration:none; color:#cd8844; text-transform:lowercase; font-family: 'Delius', arial, serif; font-weight:100;  }
+div#nav ul li a {text-decoration:none; color:white;  text-transform:lowercase; font-family: 'Delius', arial, serif; font-weight:100; margin:0; padding:0; }
 div#nav ul li a:hover {color:#86b96c; }
 /*end NAVIGATION*/
 
 /*NEXT*/
-div#next {background-image: url(../images/date.png);  margin:0; padding:10px 0; }
-div#next h2, div#next h2 a {font-family: 'Delius', arial, serif; margin:0px auto 0 auto; width:985px; color:white;  font-size:34px; text-transform:lowercase; font-weight:100;}
+div#next { margin:0; padding:10px 0; }
+div#next h2, div#next h2 a {font-family: 'Delius', arial, serif; margin:0px auto 0 auto; width:985px; color:#C83925;  font-size:45px; text-transform:lowercase; font-weight:100; text-align: center; }
 /*end NEXT*/
 
 
@@ -135,13 +144,16 @@ span.artwork {color:#1c76af; font-family: 'Delius', arial, serif; font-size:30px
 /*end TEXT*/
 
 /*SM*/
-div.socialmedia {width:315px; float:left; clear:right; display:block; margin:10px 0 20px 20px;}
+div.socialmedia {width:315px; float: right; clear:right; display:block; margin:10px 0 20px 20px;}
 div.socialmedia h3, .socialmedia h3 a {font-family: 'Delius', arial, serif; color:#c83925; font-size:40px;}
-div.socialmedia h4 {color:#11745c; font-size:35px;}
-div.socialmedia ul li a{color:#1c76af; font-family: 'Delius', arial, serif; font-size:25px;}
-div.socialmedia ul li.fb a {color:#3b5998; text-transform:lowercase;}
-div.socialmedia ul li.flickr a{color:#CF8643; text-transform:lowercase;}
-div.socialmedia ul li.tweet a{color:#5e99bc; text-transform:lowercase;}
+div.socialmedia h4 {color:#11745c; font-size:35px; text-align: center;}
+div.socialmedia ul li a{color: white; font-family: 'Delius', arial, serif; font-size:25px;
+border-radius: 3px; padding: 5px; display: block; text-transform: lowercase; text-align: center; margin: 10px 0;
+	
+}
+div.socialmedia ul li.fb a {background-color:#3b5998; }
+div.socialmedia ul li.flickr a{background-color:#E52A82;}
+div.socialmedia ul li.tweet a{background-color:#5e99bc; }
 
 /*end SM*/
 
@@ -157,15 +169,19 @@ div#leftcolumn {width:630px; float:left; margin-right:10px; margin-top:15px;}
 div#leftcolumn.full {width: 900px;}
 div#contentcontainer {width:985px; margin:0 auto 0 auto;}
 div#leftcolumn h2{color:#c83925; font-size:42px; /*margin: 15px 0;*/}
-div#leftcolumn h3 {color:#c83925; font-size:30px;}
+div#leftcolumn h3 {color:#1C76AF; font-size:30px;}
 div#leftcolumn p, div#leftcolumn ul li { font-family: 'Merriweather',arial,serif; font-size:15px;}
 div#leftcolumn p a {color:#C83925; /*#cd8844;*/}
 div#leftcolumn ul li {list-style-type:inherit; margin-left:20px; padding-bottom:10px;}
 div#leftcolumn h4, div#staffbio h3 {font-size:30px; color:#1c76af;}
 /* div#leftcolumn h4 {margin-top:35px;} */
 div#staffbio ul {margin-bottom:50px;}
-div#staffbio ul li {background-color:#ddf1fe;  width:640px;list-style-type:none; padding:0; margin:0;  }
-div#staffbio img {float:left; padding:10px;}
+div#staffbio ul li {background-color:#ddf1fe;  width:640px;list-style-type:none; padding:0; margin:0; box-shadow: 0 0px 0px 1px #AFC9DA; border: 1px solid white; }
+div#staffbio ul li:hover {
+	background-color:#e8f5fe;
+	
+}
+div#staffbio img {float:left; margin: 10px; box-shadow: 0 0px 0px 1px #AFC9DA; border: 1px solid white;}
 div#staffbio p {clear:right; min-height:135px; margin-top:0px; color:black;}
 div#staffbio h5 {color:#c83925; font-family: 'Merriweather',arial,serif; font-size:20px; padding-top:10px; margin:0; }
 
@@ -205,4 +221,28 @@ div#leftcolumn.slider-page {
 	color: white;
 	padding: 5px;
 	background: rgba(0,0,0,0.8);
+}
+
+.contact-link{
+	font-size: 24px;
+	margin: 20px 0;
+	color:#C83925;
+	display: block;
+	
+}
+
+.contact-link {
+	color: white;
+	background: #C83925;
+	padding: 4px;
+	font-size: 33px;
+	border-radius: 5px;
+	margin: 10px 0;
+	display: block;
+	text-transform: lowercase;
+	text-align: center;
+}
+
+.video{
+	float: right;
 }
