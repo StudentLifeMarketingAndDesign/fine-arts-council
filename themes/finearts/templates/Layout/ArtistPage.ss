@@ -3,7 +3,9 @@
 $Form
 	
 		<div id="leftcolumn" class="full">
+		<p><a href="riverbank-art-fair/">&laquo; Back to Riverbank Art Fair</a></p>
 			<h2>$Title</h2>
+			<h3>Categories:</h3>
 			$Content
 			
 			<div id="artist-list">
@@ -11,12 +13,14 @@ $Form
 			
 				<% if ArtistsFromPage %>
 				<div class="artist-category">
-					<h3>$Name</h3>
-						<p>
+					<h4>$Name</h4>
+					<ul>
+					
 							<% control ArtistsFromPage %>
-								$Name<% if Last %><% else %>,<% end_if %> 
+									<li>$Name</li>
 							<% end_control %>
-						</p>
+						
+					</ul>
 						
 				</div>
 				<% end_control %>
