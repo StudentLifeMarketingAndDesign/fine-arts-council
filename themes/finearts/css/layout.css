@@ -5,12 +5,12 @@ ul li {list-style-type:none; font-family: 'Merriweather',arial,serif;}
 ul {margin-left:-40px;}
 #contentwrapper {background-color:#f2f9fd; background-image: url(../images/content_background.png); min-height: 500px;
 	text-shadow: 0 1px 0 white;
-	
 }
 body {background-color:#005f5c; margin:0; padding:0;}
 .clear {clear:both;}
 /*end UNIVERSAL styles */
 
+img{display: block; margin: auto;}
 
 h5#logofoot a{height:98px; width:143px; background:url(../images/logo2.png) no-repeat 0 0px; text-indent:-9999px; margin:0px 0 0 0; padding:0; float:left;}
 
