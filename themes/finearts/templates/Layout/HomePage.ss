@@ -7,11 +7,15 @@
 </div>
 
 <div id="content">
+
+
 	<div class="photofeature">
-		<a href="http://www.flickr.com/photos/fineartscouncil/sets/72157630046226100/" target="_blank"><img src="{$ThemeDir}/images/homepage_mainslider.jpg" /></a>
-		<div class="photofeature-caption">
-			<p><a href="http://www.flickr.com/photos/fineartscouncil/sets/72157630046226100/">The 2012 Riverbank Art Fair was a huge success! Check out our photo gallery here!</a></p>
-		</div>
+	
+<iframe width="985" height="554" src="http://www.youtube.com/embed/2XX8aRWTQuI" frameborder="0" allowfullscreen></iframe>
+
+		
+		
+		
     </div>
     <div class="text">
             $Form

@@ -19,8 +19,7 @@
 			$Content 
 			
 			<% if URLSegment = riverbank-art-fair %>
-			<object width="600" height="525"> <param name="flashvars" value="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Ffineartscouncil%2Fsets%2F72157630046226100%2Fshow%2F&page_show_back_url=%2Fphotos%2Ffineartscouncil%2Fsets%2F72157630046226100%2F&set_id=72157630046226100&jump_to="></param> <param name="movie" value="http://www.flickr.com/apps/slideshow/show.swf?v=104087"></param> <param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="http://www.flickr.com/apps/slideshow/show.swf?v=104087" allowFullScreen="true" flashvars="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Ffineartscouncil%2Fsets%2F72157630046226100%2Fshow%2F&page_show_back_url=%2Fphotos%2Ffineartscouncil%2Fsets%2F72157630046226100%2F&set_id=72157630046226100&jump_to=" width="700" height="525"></embed></object>
-			
+
 			<% else_if URLSegment = holiday-thieves-market %>
 			<object width="600" height="525"> <param name="flashvars" value="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Ffineartscouncil%2Fsets%2F72157626798488775%2Fshow%2F&page_show_back_url=%2Fphotos%2Ffineartscouncil%2Fsets%2F72157626798488775%2F&set_id=72157626798488775&jump_to="></param> <param name="movie" value="http://www.flickr.com/apps/slideshow/show.swf?v=104087"></param> <param name="allowFullScreen" value="true"></param><embed type="application/x-shockwave-flash" src="http://www.flickr.com/apps/slideshow/show.swf?v=104087" allowFullScreen="true" flashvars="offsite=true&lang=en-us&page_show_url=%2Fphotos%2Ffineartscouncil%2Fsets%2F72157626798488775%2Fshow%2F&page_show_back_url=%2Fphotos%2Ffineartscouncil%2Fsets%2F72157626798488775%2F&set_id=72157626798488775&jump_to=" width="700" height="525"></embed></object>
 						
