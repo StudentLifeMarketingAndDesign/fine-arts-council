@@ -9,12 +9,12 @@ $Form
 			<div id="staffbio">
 				
 				<ul>
-					<% control Children %> 
+					<% loop Children %> 
 					<li>
 					
 					<% if StaffImage %>
 					
-						<% control StaffImage.SetWidth(150) %><img src="$URL" alt="$Title"/><% end_control %>
+						<% loop StaffImage.SetWidth(150) %><img src="$URL" alt="$Title"/><% end_loop %>
 					<% end_if %>
 						
 						<h5>$Title</h5>$Content
@@ -22,7 +22,7 @@ $Form
 						
 						</li>
 			
-					<% end_control %>
+					<% end_loop %>
 				
 				</ul>
 			</div>

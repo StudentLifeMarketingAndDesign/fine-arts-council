@@ -16,10 +16,11 @@ class Artist extends DataObject
 	public function getCMSFields_forPopup()
 	{
 	
-		$categories = DataObject::get("ArtistCategory");
+		//$categories = DataObject::get("ArtistCategory");
+		$categories = ArtistCategory::get(); 
 		$category_dropdown_vals = $categories->map("ID","Name");
 		print_r($cateogry_dropdown_vals);
-		return new FieldSet(
+		return new FieldList(
 			new TextField('Name'),
 			new SimpleHTMLEditorField('Description'),
 			new DropdownField(
@@ -44,7 +45,7 @@ class ArtistCategory extends DataObject {
 	
 	public function getCMSFields_forPopup()
 	{
-		return new FieldSet(
+		return new FieldList(
 			new TextField('Name')
 		);
 	}

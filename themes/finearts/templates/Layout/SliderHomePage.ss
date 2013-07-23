@@ -20,7 +20,7 @@
         
 	            <div id="slider" class="nivoSlider">
 	            
-	            	<% control Children %>
+	            	<% loop Children %>
 	            		<% if LinkURL %>
 	                		<a href="$LinkURL">
 	                		<img src="$Image.URL" alt="" title="$Caption" /></a>
@@ -28,7 +28,7 @@
 	                		<img src="$Image.URL" alt="" title="$Caption" />
 
 	                	<% end_if %>
-	                <% end_control %>
+	                <% end_loop %>
 	            
 	            </div>
 	                  

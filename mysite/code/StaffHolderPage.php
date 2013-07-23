@@ -12,7 +12,7 @@ class StaffHolderPage extends Page {
 	function getCMSFields() {
 		$fields = parent::getCMSFields();
 		
-		$fields->addFieldToTab('Root.Content.Main', new ImageField('BoardImage', 'BoardImage'));
+		$fields->addFieldToTab('Root.Main', new UploadField('BoardImage', 'BoardImage'));
 		
 		return $fields;
 	}

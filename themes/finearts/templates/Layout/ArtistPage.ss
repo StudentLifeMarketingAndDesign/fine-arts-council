@@ -9,23 +9,21 @@ $Form
 			$Content
 			
 			<div id="artist-list">
-				<% control Categories %>
+				<% loop Categories %>
 			
 				<% if ArtistsFromPage %>
 				<div class="artist-category">
 					<h4>$Name</h4>
 					<ul>
 					
-							<% control ArtistsFromPage %>
+							<% loop ArtistsFromPage %>
 									<li>$Name</li>
-							<% end_control %>
+							<% end_loop %>
 						
 					</ul>
 						
 				</div>
-				<% end_control %>
-			
-				<% end_control %>
+				<% end_loop %>
 			<div class="clear"></div>
 
 			</div>

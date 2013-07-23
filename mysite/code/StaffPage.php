@@ -13,8 +13,8 @@ class StaffPage extends Page {
 	function getCMSFields() {
 		$fields = parent::getCMSFields();
  
-		$fields->addFieldToTab('Root.Content.Main', new TextField('StaffName', 'StaffName'));
-		$fields->addFieldToTab('Root.Content.Main', new ImageField('StaffImage', 'StaffImage'));
+		$fields->addFieldToTab('Root.Main', new TextField('StaffName', 'StaffName'));
+		$fields->addFieldToTab('Root.Main', new UploadField('StaffImage', 'StaffImage'));
  
       return $fields;
    }

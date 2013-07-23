@@ -14,10 +14,10 @@ class SliderImage extends SiteTree {
 	
 	function getCMSFields() {
 		$fields = parent::getCMSFields();
-		$fields->removeFieldFromTab("Root.Content.Main", "Content");		
-		$fields->addFieldToTab('Root.Content.Main', new ImageField('Image', 'Slider Image (1000 x 431 pixels)')); 
-		$fields->addFieldToTab('Root.Content.Main', new TextField('Caption', 'Image Caption'));
-		$fields->addFieldToTab('Root.Content.Main', new TextField('LinkURL', 'Link URL'));
+		$fields->removeFieldFromTab("Root.Main", "Content");		
+		$fields->addFieldToTab('Root.Main', new UploadField('Image', 'Slider Image (1000 x 431 pixels)')); 
+		$fields->addFieldToTab('Root.Main', new TextField('Caption', 'Image Caption'));
+		$fields->addFieldToTab('Root.Main', new TextField('LinkURL', 'Link URL'));
 		
 		return $fields;
 	}	

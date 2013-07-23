@@ -11,9 +11,9 @@ $Form
 			<div id="staffbio">
 				
 				<ul>
-					<% control Children %> 
+					<% loop Children %> 
 					<li><img src="$StaffImage.URL" alt="$StaffName"/><h5>$StaffName</h5>$Content</li>
-					<% end_control %>
+					<% end_loop %>
 				</ul>
 			</div>
 			

@@ -1,6 +1,6 @@
 <?php
  
-class CustomSiteConfig extends DataObjectDecorator {
+class CustomSiteConfig extends DataExtension {
      
     function extraStatics() {
         return array(
@@ -10,7 +10,7 @@ class CustomSiteConfig extends DataObjectDecorator {
         );
     }
  
-    public function updateCMSFields(FieldSet $fields) {
+    public function updateCMSFields(FieldList $fields) {
         $fields->addFieldToTab("Root.Main", new TextField("TaglineLink", "Tagline Link"));
     }
 }

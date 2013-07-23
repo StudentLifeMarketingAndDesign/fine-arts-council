@@ -29,13 +29,13 @@
     </div>
          <div id="nav">
             	<ul id="nav">
-					<% control Menu(1) %>
+					<% loop Menu(1) %>
 						<% if LinkOrCurrent = current %>
 							<li><span class="{$FirstLast}">$MenuTitle</span></li>
 						<% else %>
 							<li><a href="$Link" class="{$FirstLast}">$MenuTitle</a></li>
 						<% end_if %>
-					<% end_control %>
+					<% end_loop %>
 				</ul>
         </div>
   	<div id="contentwrapper">

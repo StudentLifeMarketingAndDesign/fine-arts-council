@@ -14,26 +14,48 @@ class ArtistPage extends Page {
 	
 	);
 	
-	function getCMSFields() {
+	/*function getCMSFields() {
 		$fields = parent::getCMSFields();
 		
+		$config = GridFieldConfig_RelationEditor::create();
+		$config->getComponentByType('GridFieldDataColumns')->setDisplayFields(array(
+			'Name'=>'Name',
+			//'Artist.Title' => 'Artist'
+		)); 
 		//$fields->addFieldToTab('Root.Content.Main', new ImageField('BoardImage', 'BoardImage'));
-		$fields->addFieldToTab("Root.Content.Artists", new DataObjectManager(
+		
+		$artistField = new GridField(
+			'Artists',
+			'Artist',
+			$this->Artists(),
+			$config
+		);
+		
+		$artistCategoryField = new GridField(
+			'ArtistCategories',
+			'ArtistCategory',
+			$this->Artists(),
+			$config
+		);
+		
+		/*$fields->addFieldToTab("Root.Artists", new DataObjectManager(
 			$this,
 			'Artists',
 			'Artist',
 			array('Name' => 'Name'),
 			'getCMSFields_forPopup'
 		));
-		$fields->addFieldToTab("Root.Content.Artists", new DataObjectManager(
+		$fields->addFieldToTab("Root.Artists", new DataObjectManager(
 			$this,
 			'ArtistCategories',
 			'ArtistCategory',
 			array('Name' => 'Name'),
 			'getCMSFields_forPopup'
 		));
+		$fields-> addFieldToTab('Root.Artists',$artistField);
+		$fields-> addFieldToTab('Root.Artists', $artistCategoryField);
 		return $fields;
-	}
+	}*/
 
 }
 class ArtistPage_Controller extends Page_Controller {
@@ -42,7 +64,8 @@ class ArtistPage_Controller extends Page_Controller {
 	public static $allowed_actions = array (
 	);
 	public function Categories(){
-		$categories = DataObject::get("ArtistCategory", null, "Name ASC");
+		//$categories = DataObject::get("ArtistCategory", null, "Name ASC");
+		$categories = ArtistCategory::get()->sort('Name ASC');
 		if($categories) return $categories;
 	
 	}
