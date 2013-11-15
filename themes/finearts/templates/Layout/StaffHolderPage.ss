@@ -5,7 +5,7 @@ $Form
 		<div id="leftcolumn">
 			<h2>About the Fine Arts Council</h2>
 				<h4>Our Staff</h4>
-                	$BoardImage
+                	$BoardImage.SetWidth(630)
 			<div id="staffbio">
 				
 				<ul>

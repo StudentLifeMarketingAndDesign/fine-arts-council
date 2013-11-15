@@ -156,7 +156,6 @@ textarea {
     color: white;
     font-size: 90px; font-weight: 100;
     font-family: 'Delius', arial, serif;
-    text-shadow: 0 1px 0 #333;
 }
 
 #headercontent {
@@ -180,7 +179,6 @@ h1#logo { float: left }
 #nav {
     margin: 0; padding: 0;
     background-color: #005f5c;
-    background-image: url(../images/nav_background.png)
 }
 
 #nav ul {
@@ -230,7 +228,7 @@ h1#logo { float: left }
     margin: 0px auto 0 auto;
     color: #C83925;
     font-size: 45px; font-weight: 100;
-    text-align: center; text-transform: lowercase;
+    text-align: center;
     font-family: 'Delius', arial, serif
 }
 
