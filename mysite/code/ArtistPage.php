@@ -1,15 +1,15 @@
 <?php
 class ArtistPage extends Page {
 
-	public static $db = array(
+	private static $db = array(
 	);
 
-	public static $has_one = array(
+	private static $has_one = array(
 		
 		
 	);
 	
-	public static $has_many = array (
+	private static $has_many = array (
 		"Artists" => "Artist"
 	
 	);
@@ -61,9 +61,9 @@ class ArtistPage extends Page {
 class ArtistPage_Controller extends Page_Controller {
 
 	
-	public static $allowed_actions = array (
+	private static $allowed_actions = array (
 	);
-	public function Categories(){
+	private function Categories(){
 		//$categories = DataObject::get("ArtistCategory", null, "Name ASC");
 		$categories = ArtistCategory::get()->sort('Name ASC');
 		if($categories) return $categories;

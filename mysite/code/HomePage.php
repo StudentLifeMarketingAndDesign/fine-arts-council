@@ -2,6 +2,8 @@
 class HomePage extends Page {
 
 	public static $db = array(
+		"Tagline" => "Text",
+		"TaglineURL" => "Text"
 	);
 
 	public static $has_one = array(
@@ -9,14 +11,15 @@ class HomePage extends Page {
 		"PhotoFeature1" => "Image",
 		"PhotoFeature2" => "Image",
 		"PhotoFeature3" => "Image"
+
 	);
 	
 	function getCMSFields() {
 		$fields = parent::getCMSFields();
+
+		$fields->addFieldToTab('Root.Main', new TextField('Tagline', 'Tagline'));
+		$fields->addFieldToTab('Root.Main', new TextField('TaglineURL', 'TaglineURL'));
 		
-		$fields->addFieldToTab('Root.Main', new UploadField('PhotoFeature1', 'PhotoFeature1'));
-		$fields->addFieldToTab('Root.Main', new UploadField('PhotoFeature2', 'PhotoFeature2'));
-		$fields->addFieldToTab('Root.Main', new UploadField('PhotoFeature3', 'PhotoFeature3'));
 		
 		return $fields;
 	}

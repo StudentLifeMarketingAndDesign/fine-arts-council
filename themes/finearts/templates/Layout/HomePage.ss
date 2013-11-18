@@ -1,8 +1,8 @@
 <div id="next">
-	<% if SiteConfig.TaglineLink %>
-		<h2><a href="$SiteConfig.TaglineLink">$SiteConfig.Tagline</a></h2>
+	<% if TaglineURL %>
+		<h2><a href="$TaglineURL">$Tagline</a></h2>
 	<% else %>
-		<h2>$SiteConfig.Tagline</h2>
+		<h2>$Tagline</h2>
 	<% end_if %>
 </div>
 

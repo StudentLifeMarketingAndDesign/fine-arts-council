@@ -2,13 +2,13 @@
 
 class Artist extends DataObject
 {
-	static $db = array (
+	private static $db = array (
 		'Name' => 'Text',
 		'Description' => 'HTMLText'
 
 	);
  
-	static $has_one = array (
+	private static $has_one = array (
 		'ArtistPage' => 'ArtistPage',
 		'Category' => 'ArtistCategory'
 	);
@@ -35,11 +35,11 @@ class Artist extends DataObject
 }
 
 class ArtistCategory extends DataObject {
-	static $db = array (
+	private static $db = array (
 		'Name' => 'Text',	
 	);
 	
-	static $has_many = array (
+	private static $has_many = array (
 		'Artists' => 'Artist'
 	);
 	
