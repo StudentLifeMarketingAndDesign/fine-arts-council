@@ -1,12 +1,12 @@
 <?php
 class HomePage extends Page {
 
-	public static $db = array(
+	private static $db = array(
 		"Tagline" => "Text",
 		"TaglineURL" => "Text"
 	);
 
-	public static $has_one = array(
+	private static $has_one = array(
 								   
 		"PhotoFeature1" => "Image",
 		"PhotoFeature2" => "Image",
@@ -43,7 +43,7 @@ class HomePage_Controller extends Page_Controller {
 	 *
 	 * @var array
 	 */
-	public static $allowed_actions = array (
+	private static $allowed_actions = array (
 	);
 
 	public function init() {

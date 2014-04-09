@@ -1,10 +1,10 @@
 <?php
 class StaffHolderPage extends Page {
 
-	public static $db = array(
+	private static $db = array(
 	);
 
-	public static $has_one = array(
+	private static $has_one = array(
 		"BoardImage" => "Image"
 		
 	);
@@ -21,7 +21,7 @@ class StaffHolderPage extends Page {
 class StaffHolderPage_Controller extends Page_Controller {
 
 	
-	public static $allowed_actions = array (
+	private static $allowed_actions = array (
 	);
 
 	public function init() {

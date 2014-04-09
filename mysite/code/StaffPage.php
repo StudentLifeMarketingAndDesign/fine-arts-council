@@ -1,11 +1,11 @@
 <?php
 class StaffPage extends Page {
 
-	public static $db = array(
+	private static $db = array(
 		"StaffName" => "Text"
 	);
 
-	public static $has_one = array(
+	private static $has_one = array(
 		"StaffImage" => "Image"
 		
 	);
@@ -23,10 +23,10 @@ class StaffPage extends Page {
 class StaffPage_Controller extends Page_Controller {
 
 	
-	public static $allowed_actions = array (
+	private static $allowed_actions = array (
 	);
 
-	public function init() {
+	private function init() {
 		parent::init();
 
 		// Note: you should use SS template require tags inside your templates 
