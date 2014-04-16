@@ -26,7 +26,7 @@ class StaffPage_Controller extends Page_Controller {
 	private static $allowed_actions = array (
 	);
 
-	private function init() {
+	public function init() {
 		parent::init();
 
 		// Note: you should use SS template require tags inside your templates 
