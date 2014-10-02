@@ -4,7 +4,7 @@
         "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "06b42d1ec2e45afe3b06957a188bec7b",
+    "hash": "b34b694f25f5b8cc380282b7c4fe5ec5",
     "packages": [
         {
             "name": "colymba/gridfield-bulk-editing-tools",
@@ -180,6 +180,46 @@
             "time": "2014-09-15 22:35:57"
         },
         {
+            "name": "jonom/silverstripe-betternavigator",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jonom/silverstripe-betternavigator.git",
+                "reference": "519555838f5eae516826e08aa0ef174b801b92df"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jonom/silverstripe-betternavigator/zipball/519555838f5eae516826e08aa0ef174b801b92df",
+                "reference": "519555838f5eae516826e08aa0ef174b801b92df",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "~3.1"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "betternavigator"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathon Menz",
+                    "homepage": "http://jonathonmenz.com"
+                }
+            ],
+            "description": "Front-end utility menu for SilverStripe websites featuring administration and development tools",
+            "keywords": [
+                "BetterNavigator",
+                "SilverStripeNavigator",
+                "navigator",
+                "silverstripe"
+            ],
+            "time": "2014-09-11 21:21:05"
+        },
+        {
             "name": "md/ac-json-events",
             "version": "dev-master",
             "source": {
@@ -213,21 +253,22 @@
         },
         {
             "name": "md/cfo-project",
-            "version": "dev-master",
+            "version": "dev-navigator",
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/cfo-project.git",
-                "reference": "c46f7fb0f3cedcfd23984a8bc8dea49c12185109"
+                "reference": "cfea7af24c011363ae07a5a28fdb8bf63e68d6aa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/cfo-project/zipball/c46f7fb0f3cedcfd23984a8bc8dea49c12185109",
-                "reference": "c46f7fb0f3cedcfd23984a8bc8dea49c12185109",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/cfo-project/zipball/cfea7af24c011363ae07a5a28fdb8bf63e68d6aa",
+                "reference": "cfea7af24c011363ae07a5a28fdb8bf63e68d6aa",
                 "shasum": ""
             },
             "require": {
                 "colymba/gridfield-bulk-editing-tools": "*",
                 "jonom/focuspoint": "*",
+                "jonom/silverstripe-betternavigator": "dev-master",
                 "md/ac-json-events": "dev-master",
                 "md/division-bar": "*",
                 "php": ">=5.3.2",
@@ -254,10 +295,10 @@
             },
             "description": "The University of Iowa CFO Project Code and Theme",
             "support": {
-                "source": "https://github.com/StudentLifeMarketingAndDesign/cfo-project/tree/master",
+                "source": "https://github.com/StudentLifeMarketingAndDesign/cfo-project/tree/navigator",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/cfo-project/issues"
             },
-            "time": "2014-10-01 17:36:28"
+            "time": "2014-10-02 18:22:58"
         },
         {
             "name": "md/division-bar",
