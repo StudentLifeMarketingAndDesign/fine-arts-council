@@ -30,6 +30,7 @@ module.exports = function(grunt) {
           'cfo-project/bower_components/modernizr/modernizr.js',
           'cfo-project/bower_components/foundation/js/foundation.min.js',
           'cfo-project/bower_components/FlexSlider/jquery.flexslider.js',
+          'cfo-project/bower_components/fitvids/jquery.fitvids.js',
           'division-bar/js/division-bar.js',
           '<%=globalConfig.themeDir %>/javascript/*.js'
         ],
@@ -50,7 +51,7 @@ module.exports = function(grunt) {
 
     watch: {
       scripts: {
-        files: ['<%=globalConfig.themeDir %>/js/*.js', '<%=globalConfig.themeDir %>/js/**/*.js'],
+        files: ['<%=globalConfig.themeDir %>/javascript/*.js', '<%=globalConfig.themeDir %>/javascript/**/*.js'],
         tasks: ['concat', 'uglify'],
         options: {
           spawn: true,
