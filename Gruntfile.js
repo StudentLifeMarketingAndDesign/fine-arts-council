@@ -18,7 +18,8 @@ module.exports = function(grunt) {
           style: 'compressed',
           loadPath: [
           'cfo-project/bower_components/foundation/scss'
-          ]
+          ],
+          sourcemap: true
         }
       }
     },
