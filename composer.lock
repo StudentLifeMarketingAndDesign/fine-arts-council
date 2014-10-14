@@ -12,12 +12,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/colymba/GridFieldBulkEditingTools.git",
-                "reference": "ef5d260a7c7b724117288354e9e8d8cf8eea274c"
+                "reference": "f0840f453cb641b5eebd73397d32727d72d6e543"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/colymba/GridFieldBulkEditingTools/zipball/ef5d260a7c7b724117288354e9e8d8cf8eea274c",
-                "reference": "ef5d260a7c7b724117288354e9e8d8cf8eea274c",
+                "url": "https://api.github.com/repos/colymba/GridFieldBulkEditingTools/zipball/f0840f453cb641b5eebd73397d32727d72d6e543",
+                "reference": "f0840f453cb641b5eebd73397d32727d72d6e543",
                 "shasum": ""
             },
             "require": {
@@ -46,7 +46,7 @@
                 "gridfield bulk upload",
                 "silverstripe"
             ],
-            "time": "2014-10-01 09:29:38"
+            "time": "2014-10-10 16:05:43"
         },
         {
             "name": "composer/installers",
@@ -185,12 +185,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/jonom/silverstripe-betternavigator.git",
-                "reference": "519555838f5eae516826e08aa0ef174b801b92df"
+                "reference": "3b53e7b36ae4397a0c77630b525f6c5f6bf5edc4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/jonom/silverstripe-betternavigator/zipball/519555838f5eae516826e08aa0ef174b801b92df",
-                "reference": "519555838f5eae516826e08aa0ef174b801b92df",
+                "url": "https://api.github.com/repos/jonom/silverstripe-betternavigator/zipball/3b53e7b36ae4397a0c77630b525f6c5f6bf5edc4",
+                "reference": "3b53e7b36ae4397a0c77630b525f6c5f6bf5edc4",
                 "shasum": ""
             },
             "require": {
@@ -217,7 +217,7 @@
                 "navigator",
                 "silverstripe"
             ],
-            "time": "2014-09-11 21:21:05"
+            "time": "2014-10-08 16:37:13"
         },
         {
             "name": "md/ac-json-events",
@@ -225,12 +225,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events.git",
-                "reference": "470b9f271e9acae01b8f4c1786734152e6dcb642"
+                "reference": "59edf49f553c34dafe047c4f30d56ce62b66711b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/ac-json-events/zipball/470b9f271e9acae01b8f4c1786734152e6dcb642",
-                "reference": "470b9f271e9acae01b8f4c1786734152e6dcb642",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/ac-json-events/zipball/59edf49f553c34dafe047c4f30d56ce62b66711b",
+                "reference": "59edf49f553c34dafe047c4f30d56ce62b66711b",
                 "shasum": ""
             },
             "require": {
@@ -249,7 +249,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events/tree/master",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/ac-json-events/issues"
             },
-            "time": "2014-09-29 15:27:41"
+            "time": "2014-10-13 19:46:28"
         },
         {
             "name": "md/cfo-project",
@@ -257,12 +257,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/cfo-project.git",
-                "reference": "eab540efc1a1d5bd347940af4e2df75154394685"
+                "reference": "a87f879cd867f959086f151e662bd9f27e1cc687"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/cfo-project/zipball/eab540efc1a1d5bd347940af4e2df75154394685",
-                "reference": "eab540efc1a1d5bd347940af4e2df75154394685",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/cfo-project/zipball/a87f879cd867f959086f151e662bd9f27e1cc687",
+                "reference": "a87f879cd867f959086f151e662bd9f27e1cc687",
                 "shasum": ""
             },
             "require": {
@@ -272,6 +272,7 @@
                 "md/ac-json-events": "dev-master",
                 "md/division-bar": "*",
                 "php": ">=5.3.2",
+                "rywa/silverstripe-foundation-forms": "dev-master",
                 "silverstripe-themes/simple": "*",
                 "silverstripe/blog": "*",
                 "silverstripe/cms": "3.1.6",
@@ -298,7 +299,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/cfo-project/tree/master",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/cfo-project/issues"
             },
-            "time": "2014-10-03 16:19:48"
+            "time": "2014-10-14 16:08:43"
         },
         {
             "name": "md/division-bar",
@@ -331,6 +332,46 @@
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-bar/issues"
             },
             "time": "2014-06-18 14:30:05"
+        },
+        {
+            "name": "rywa/silverstripe-foundation-forms",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ryanwachtl/silverstripe-foundation-forms.git",
+                "reference": "8e1daa4c89a0dd36f491b210fe8e9ca07674a94e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ryanwachtl/silverstripe-foundation-forms/zipball/8e1daa4c89a0dd36f491b210fe8e9ca07674a94e",
+                "reference": "8e1daa4c89a0dd36f491b210fe8e9ca07674a94e",
+                "shasum": ""
+            },
+            "require": {
+                "composer/installers": "*",
+                "silverstripe/framework": ">=3.0"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "installer-name": "foundationforms"
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT Open Source License"
+            ],
+            "authors": [
+                {
+                    "name": "Ryan Wachtl",
+                    "homepage": "http://ryanwachtl.com"
+                }
+            ],
+            "description": "SilverStripe 3 Forms Compatible with Zurb Foundation Framework",
+            "keywords": [
+                "Forms",
+                "silverstripe",
+                "zurbfoundation"
+            ],
+            "time": "2014-08-01 02:02:34"
         },
         {
             "name": "silverstripe-themes/simple",
@@ -374,12 +415,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-blog.git",
-                "reference": "8b28a1d047aea632b7ce9c552f0e04c6a282816c"
+                "reference": "638b309b699950e943b3d2c65197c8e39e3fbf29"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/8b28a1d047aea632b7ce9c552f0e04c6a282816c",
-                "reference": "8b28a1d047aea632b7ce9c552f0e04c6a282816c",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-blog/zipball/638b309b699950e943b3d2c65197c8e39e3fbf29",
+                "reference": "638b309b699950e943b3d2c65197c8e39e3fbf29",
                 "shasum": ""
             },
             "require": {
@@ -407,7 +448,7 @@
                 "blog",
                 "silverstripe"
             ],
-            "time": "2014-08-24 23:20:55"
+            "time": "2014-10-07 19:59:23"
         },
         {
             "name": "silverstripe/cms",
@@ -828,12 +869,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/unclecheese/silverstripe-gridfield-betterbuttons.git",
-                "reference": "6206ecba9e9c606883e091bb366928c89bf8cb9a"
+                "reference": "feabffc4976a16f9860cc2768921833a6d97c102"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/unclecheese/silverstripe-gridfield-betterbuttons/zipball/6206ecba9e9c606883e091bb366928c89bf8cb9a",
-                "reference": "6206ecba9e9c606883e091bb366928c89bf8cb9a",
+                "url": "https://api.github.com/repos/unclecheese/silverstripe-gridfield-betterbuttons/zipball/feabffc4976a16f9860cc2768921833a6d97c102",
+                "reference": "feabffc4976a16f9860cc2768921833a6d97c102",
                 "shasum": ""
             },
             "require": {
@@ -847,8 +888,7 @@
             "authors": [
                 {
                     "name": "Uncle Cheese",
-                    "email": "unclecheese@leftandmain.com",
-                    "homepage": "http://leftandmain.com"
+                    "email": "unclecheese@leftandmain.com"
                 }
             ],
             "description": "Adds new form actions and buttons to GridField detail form for usability enhancements.",
@@ -857,7 +897,7 @@
                 "gridfield",
                 "silverstripe"
             ],
-            "time": "2014-07-16 11:26:46"
+            "time": "2014-10-12 23:46:11"
         },
         {
             "name": "undefinedoffset/sortablegridfield",

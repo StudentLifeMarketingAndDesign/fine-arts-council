@@ -4,8 +4,8 @@
 		<!-- $Content -->
 		<!-- $Form -->
 		<div class="our-programs">
-			<h4 class="subtitle">Our Programs</h4>
-				
+			<h4 class="subtitle">Our Events</h4>
+
 				<div class="row">
 					<% with Page("holiday-thieves-market") %>
 					<div class="medium-6 large-6 columns">
@@ -24,10 +24,12 @@
 	</div>
 </div>
 
-<div class="row collapse">
-	<div class="large-12 columns">
-		<div class="mission-statement">
-			$Content
+<div class="coming-up">
+	<div class="row collapse">
+		<div class="large-12 columns">
+			<div class="mission-statement">
+				$Content
+			</div>
 		</div>
 	</div>
 </div>
