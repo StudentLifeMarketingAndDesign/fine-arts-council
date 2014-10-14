@@ -5,6 +5,9 @@ body{
 	.main-nav {
 		margin-top: 2em;
 	}
+	.mission-statement{
+		border: none;
+	}
 	.mission-statement ul{
 		margin: 0;
 		li{
@@ -16,6 +19,8 @@ body{
 	}
 	.coming-up{
 		background-color: #f4f4f4;
+		border-bottom: 1px solid #DDDDDD;
+		border-top: 1px solid #DDDDDD;
 	}
 }
 
@@ -37,8 +42,9 @@ header, .header{
 	background: #0a759d url('../images/stripes.png');
 	margin-bottom: 0;
 	margin-top: 0;
+	padding: 1em 0;
 	@media #{$xlarge-up} {
-		padding: 1em 0;
+
 	}
 }
 
