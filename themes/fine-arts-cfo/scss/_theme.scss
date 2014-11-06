@@ -55,3 +55,15 @@ header, .header{
 .footer{
 	margin-top: 0;
 }
+
+.staffpage-img{
+	@media #{$large-up} {
+		float: right;
+	}
+}
+
+.staff-content{
+	@media #{$large-up} {
+		float: left;
+	}
+}
