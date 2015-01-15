@@ -1,5 +1,9 @@
 @import "settings";
 
+.padded-content{
+	max-width: 600px;
+}
+
 .typography {
 	color: #444;
 	font-family: $body-font-family;
