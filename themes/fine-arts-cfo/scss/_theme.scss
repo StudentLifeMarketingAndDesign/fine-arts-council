@@ -43,8 +43,12 @@ header, .header{
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 1em 0;
-	@media #{$xlarge-up} {
 
+	&.spring{
+
+	}
+	@media #{$xlarge-up} {
+		background: #0a759d url('../images/stripes-spring.png');
 	}
 }
 

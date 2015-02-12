@@ -25,7 +25,7 @@ class Page_Controller extends ContentController {
 	 *
 	 * @var array
 	 */
-	private static $allowed_actions = array (
+	private static $allowed_actions = array(
 	);
 
 	public function init() {
@@ -35,8 +35,22 @@ class Page_Controller extends ContentController {
 		// instead of putting Requirements calls here.  However these are
 		// included so that our older themes still work
 		Requirements::themedCSS('layout');
-	//	Requirements::themedCSS('typography');
+		//	Requirements::themedCSS('typography');
 		Requirements::themedCSS('form');
+	}
+
+	public function MarketTheme() {
+
+		$month = date('n');
+		$monthInt = intval($month);
+
+		//If we're between January and September, return "spring"
+		if (($monthInt >= 1) && ($monthInt < 9)) {
+			return "spring";
+		} else {
+			return "winter";
+		}
+
 	}
 
 }
