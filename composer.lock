@@ -264,12 +264,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/cfo-project.git",
-                "reference": "dfc2b4f4d248b3d0ca48118a4bb2666151ac6652"
+                "reference": "147ccf6cc4cacda68a39614bc67abf9f952f9f2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/cfo-project/zipball/dfc2b4f4d248b3d0ca48118a4bb2666151ac6652",
-                "reference": "dfc2b4f4d248b3d0ca48118a4bb2666151ac6652",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/cfo-project/zipball/147ccf6cc4cacda68a39614bc67abf9f952f9f2a",
+                "reference": "147ccf6cc4cacda68a39614bc67abf9f952f9f2a",
                 "shasum": ""
             },
             "require": {
@@ -288,8 +288,9 @@
                 "silverstripe/installer": "*",
                 "silverstripe/mathspamprotection": "*",
                 "silverstripe/recaptcha": "*",
+                "silverstripe/secureassets": "*",
                 "silverstripe/timepickerfield": "*",
-                "silverstripe/userforms": "*",
+                "silverstripe/userforms": "3.1.*",
                 "silverstripe/widgets": "*",
                 "simplepie/simplepie": "*",
                 "unclecheese/betterbuttons": "*",
@@ -306,7 +307,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/cfo-project/tree/3.2.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/cfo-project/issues"
             },
-            "time": "2015-11-23 16:51:48"
+            "time": "2015-11-23 20:25:49"
         },
         {
             "name": "md/division-bar",
@@ -818,6 +819,52 @@
             "time": "2015-11-03 00:11:11"
         },
         {
+            "name": "silverstripe/secureassets",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/silverstripe-labs/silverstripe-secureassets.git",
+                "reference": "b9e379beb7262d27f306ee556017043440bb4d6d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/silverstripe-labs/silverstripe-secureassets/zipball/b9e379beb7262d27f306ee556017043440bb4d6d",
+                "reference": "b9e379beb7262d27f306ee556017043440bb4d6d",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "~3.1"
+            },
+            "suggest": {
+                "silverstripe/cms": "Allows you to easily edit file permissions in the CMS"
+            },
+            "type": "silverstripe-module",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Sean Harvey",
+                    "email": "sean@silverstripe.com"
+                }
+            ],
+            "description": "Adds access restrictions to folders in assets, similar to the way you secure pages",
+            "homepage": "http://silverstripe.org",
+            "keywords": [
+                "assets",
+                "files",
+                "secure",
+                "silverstripe"
+            ],
+            "time": "2015-11-23 18:09:00"
+        },
+        {
             "name": "silverstripe/segment-field",
             "version": "1.0.3",
             "source": {
@@ -904,12 +951,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-spamprotection.git",
-                "reference": "8e4f03a409a0be73036556693d7692422046e540"
+                "reference": "3495ecf72676555f76af911dc10340350cdf6a81"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-spamprotection/zipball/8e4f03a409a0be73036556693d7692422046e540",
-                "reference": "8e4f03a409a0be73036556693d7692422046e540",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-spamprotection/zipball/3495ecf72676555f76af911dc10340350cdf6a81",
+                "reference": "3495ecf72676555f76af911dc10340350cdf6a81",
                 "shasum": ""
             },
             "require": {
@@ -943,7 +990,7 @@
                 "silverstripe",
                 "spamprotection"
             ],
-            "time": "2015-11-20 16:05:05"
+            "time": "2015-11-23 17:49:10"
         },
         {
             "name": "silverstripe/tagfield",
@@ -1028,12 +1075,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/silverstripe/silverstripe-userforms.git",
-                "reference": "7e1d9671641645ae4d05c4f8470fa69393cc3b6f"
+                "reference": "da2aba82291cc38be32ecfb8e45bae1ed6cd0040"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/7e1d9671641645ae4d05c4f8470fa69393cc3b6f",
-                "reference": "7e1d9671641645ae4d05c4f8470fa69393cc3b6f",
+                "url": "https://api.github.com/repos/silverstripe/silverstripe-userforms/zipball/da2aba82291cc38be32ecfb8e45bae1ed6cd0040",
+                "reference": "da2aba82291cc38be32ecfb8e45bae1ed6cd0040",
                 "shasum": ""
             },
             "require": {
@@ -1083,7 +1130,7 @@
                 "silverstripe",
                 "userforms"
             ],
-            "time": "2015-11-20 15:12:15"
+            "time": "2015-11-23 17:49:24"
         },
         {
             "name": "silverstripe/widgets",
