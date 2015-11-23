@@ -9413,5 +9413,5 @@ $(document).foundation();
 
 $(document).ready(function(){
 	// FitVids - jquery.fitvids.js
-    $(".home-orbit, .main").fitVids();
+    $("body").fitVids();
   });
