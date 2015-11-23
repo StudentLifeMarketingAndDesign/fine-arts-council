@@ -1,23 +1,27 @@
-body{
+body {}
 
-}
 .HomePage {
 	.main-nav {
 		margin-top: 2em;
 	}
-	.mission-statement{
+
+	.mission-statement {
 		border: none;
 	}
-	.mission-statement ul{
+
+	.mission-statement ul {
 		margin: 0;
-		li{
+
+		li {
 			list-style-type: none;
 		}
 	}
-	.home-quicklinks .quicklinks-title span{
+
+	.home-quicklinks .quicklinks-title span {
 		color: #ddd;
 	}
-	.coming-up{
+
+	.coming-up {
 		background-color: #f4f4f4;
 		border-bottom: 1px solid #DDDDDD;
 		border-top: 1px solid #DDDDDD;
@@ -28,38 +32,35 @@ body{
 	@media #{$large-up} {
 		margin: 0.5em 0 .5em;
 	}
-	@media #{$xlarge-up} {
 
-	}
+	@media #{$xlarge-up} {}
 }
 
-
-table{
+table {
 	width: 100%;
 }
 
-header, .header{
-	background: #0a759d url('../images/stripes.png');
+header, .header {
+	background: #0a759d url("../images/stripes.png");
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 1em 0;
 
-	&.spring{
+	&.spring {
+		background: #0a759d url("../images/stripes-spring.png");
+	}
 
-	}
-	@media #{$xlarge-up} {
-		background: #0a759d url('../images/stripes-spring.png');
-	}
+	@media #{$xlarge-up} {}
 }
 
-.social-blog{
+.social-blog {
 	background: #f4f4f4;
 }
 
 .social-blog {
 	@media #{$large-up} {
 		&:before {
-			content:"";
+			content: "";
 			position: absolute;
 			background-color: none;
 			width: 0;
@@ -67,17 +68,18 @@ header, .header{
 		}
 	}
 }
-.footer{
+
+.footer {
 	margin-top: 0;
 }
 
-.staffpage-img{
+.staffpage-img {
 	@media #{$large-up} {
 		float: right;
 	}
 }
 
-.staff-content{
+.staff-content {
 	@media #{$large-up} {
 		float: left;
 	}
