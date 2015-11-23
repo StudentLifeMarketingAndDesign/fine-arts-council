@@ -41,7 +41,7 @@ class Page_Controller extends ContentController {
 
 	public function MarketTheme() {
 
-		$month = date('n');
+		$month    = date('n');
 		$monthInt = intval($month);
 
 		//If we're between January and September, return "spring"
