@@ -25,6 +25,7 @@
 
 // We use this to control whether or not CSS classes come through in the gem files.
 $include-html-classes: true;
+
 // $include-print-styles: true;
 $include-html-global-classes: $include-html-classes;
 
@@ -33,7 +34,8 @@ $include-html-global-classes: $include-html-classes;
 // $include-html-grid-classes: $include-html-classes;
 $include-xl-html-grid-classes: true;
 
-// $row-width: rem-calc(1000);
+$row-width: rem-calc(1000);
+
 // $total-columns: 12;
 
 // Global
@@ -44,10 +46,12 @@ $include-xl-html-grid-classes: true;
 
 // We use these to control various global styles
 $body-bg: white;
+
 // $body-font-color: #222;
 $body-font-family: "proxima-nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
-$font-weight-normal:normal;
+$font-weight-normal: normal;
 $body-font-weight: $font-weight-normal;
+
 // $body-font-style: normal;
 
 // We use this to control font-smoothing
@@ -62,12 +66,12 @@ $body-font-weight: $font-weight-normal;
 $primary-color: #C83925;
 $bijoublue: #0a759d;
 $yellow: #ffce39;
+
 // $secondary-color: #e7e7e7;
 // $alert-color: #f04124;
 // $success-color: #43AC6A;
 // $warning-color: #f08a24;
 // $info-color: #a0d3e8;
-
 
 // We use these to make sure border radius matches unless we want it different.
 // $global-radius: 3px;
@@ -81,11 +85,19 @@ $yellow: #ffce39;
 $column-gutter: rem-calc(44);
 
 // Media Query Ranges
-$small-range: (0em, 30em); //0 - 480px
-$medium-range: (30.063em, 48em); //480 - 768px
-$large-range: (48.063em, 64em); // 768 - 1024px
-$xlarge-range: (64.063em, 120em); //1024 - 1920px
-$xxlarge-range: (120.063em, 99999999em);
+$small-range: 0em, 30em;
+
+//0 - 480px
+$medium-range: 30.063em, 48em;
+
+//480 - 768px
+$large-range: 48.063em, 64em;
+
+// 768 - 1024px
+$xlarge-range: 64.063em, 120em;
+
+//1024 - 1920px
+$xxlarge-range: 120.063em, 99999999em;
 
 // $screen: "only screen";
 
@@ -126,7 +138,8 @@ $xxlarge-range: (120.063em, 99999999em);
 // $include-html-type-classes: $include-html-classes;
 
 // We use these to control header font styles
- $header-font-family: "proxima-nova-condensed",sans-serif;
+$header-font-family: "proxima-nova-condensed", sans-serif;
+
 // $header-font-weight: $font-weight-normal;
 // $header-font-style: normal;
 // $header-font-color: #222;
@@ -186,6 +199,7 @@ $xxlarge-range: (120.063em, 99999999em);
 // We use these to style anchors
 // $anchor-text-decoration: none;
 $anchor-text-decoration-hover: underline;
+
 // $anchor-font-color: $primary-color;
 // $anchor-font-color-hover: scale-color($primary-color, $lightness: -14%);
 
@@ -308,7 +322,6 @@ $anchor-text-decoration-hover: underline;
 // $block-grid-elements: 12;
 // $block-grid-default-spacing: rem-calc(20);
 // $align-block-grid-to-grid: false;
-
 
 // Enables media queries for block-grid classes. Set to false if writing semantic HTML.
 // $block-grid-media-queries: true;
@@ -884,7 +897,6 @@ $magellan-padding: 0 !important;
 // $price-money-size: rem-calc(32);
 // $price-money-font-family: $body-font-family;
 
-
 // We use these to control the description styles
 // $price-bg: #fff;
 // $price-desc-color: #777;
@@ -1055,9 +1067,9 @@ $magellan-padding: 0 !important;
 // $sub-nav-font-weight: $font-weight-normal;
 // $sub-nav-text-decoration: none;
 $sub-nav-padding: rem-calc(3 16);
+
 // $sub-nav-border-radius: 3px;
 // $sub-nav-font-color-hover: scale-color($sub-nav-font-color, $lightness: -25%);
-
 
 // We use these to control the active item styles
 $sub-nav-active-font-weight: $font-weight-normal;
