@@ -13,7 +13,7 @@
 						<p>$Content.Summary(50) <a href="$Link">Continue Reading</a></p>
 					</div>
 					<% end_with %>
-					<% with Page("riverbank-art-fair") %>
+					<% with Page("spring-art-expose") %>
 					<div class="medium-6 large-6 columns">
 						<h5><a href="$Link">$Title</a> </h5>
 						<p>$Content.Summary(60) <a href="$Link">Continue Reading</a></p>
