@@ -43,3 +43,4 @@ siteconfig
 node_modules
 secureassets/
 nocaptcha/
+nocaptcha.yml
