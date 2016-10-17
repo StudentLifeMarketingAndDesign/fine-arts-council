@@ -37,3 +37,4 @@ ErrorDocument 500 /assets/error-500.html
 php_value display_errors Off
 php_value post_max_size 100M
 php_value upload_max_filesize 40M
+php_value memory_limit 3G
