@@ -41,13 +41,13 @@ table {
 }
 
 header, .header {
-	background: #0a759d url("../images/stripes.png");
+	background: #0a759d url("../images/FACWinter.jpg");
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 1em 0;
 
 	&.spring {
-		background: #0a759d url("../images/stripes-spring.png");
+		background: #0a759d url("../images/FACSpring.jpg");
 	}
 
 	@media #{$xlarge-up} {}
