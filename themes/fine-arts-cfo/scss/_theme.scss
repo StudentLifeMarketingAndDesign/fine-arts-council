@@ -41,14 +41,16 @@ table {
 }
 
 header, .header {
-	background: #0a759d url("../images/bg-winter.jpg");
+	background-color: #0a759d;
+	background-image:  url("../images/bg-winter.jpg");
 	background-size: cover;
 	margin-bottom: 0;
 	margin-top: 0;
 	padding: 1em 0;
 
 	&.spring {
-		background: #0a759d url("../images/bg-spring.jpg");
+		background-color: #0a759d;
+		background-image: url("../images/bg-spring.jpg");
 	}
 
 	@media #{$xlarge-up} {}
