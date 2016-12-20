@@ -15,7 +15,7 @@
 			<% if $Photo %>
 					<img src="$Photo.CroppedFocusedImage(350,450).URL" alt="Photograph of $FirstName $LastName" class="staffpage-img">
 				<% else %>
-					<img src="{$ThemeDir}/images/placeholder.gif" alt="Placeholder photograph of $FirstName $LastName" class="staff-img">
+					<img src="{$ThemeDir}/dist/images/placeholder.gif" alt="Placeholder photograph of $FirstName $LastName" class="staff-img">
 			<% end_if %>
 		</div>
 	</article>

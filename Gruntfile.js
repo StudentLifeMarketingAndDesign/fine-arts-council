@@ -1,7 +1,7 @@
 module.exports = function(grunt) {
 
   var globalConfig = {
-    themeDir: 'themes/fine-arts-cfo'
+    themeDir: 'themes/cfo-subtheme'
   };
 
   // Project configuration.
