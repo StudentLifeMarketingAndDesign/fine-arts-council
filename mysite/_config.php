@@ -22,5 +22,5 @@ SiteTree::enable_nested_urls();
 
 
 if(Director::isLive()) {
-	Director::forceSSL(array('/^Security/','/^admin/'));
+	Director::forceSSL();
 }
