@@ -20,7 +20,7 @@ i18n::set_locale('en_US');
 // enable nested URLs for this site (e.g. page/sub-page/)
 SiteTree::enable_nested_urls();
 
-
+Authenticator::set_default_authenticator('SAMLAuthenticator');
 if(Director::isLive()) {
 	Director::forceSSL();
 }
