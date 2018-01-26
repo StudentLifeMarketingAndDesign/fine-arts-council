@@ -48,3 +48,6 @@ activedirectory/
 multivaluefield/
 queuedjobs/
 division-analytics
+smtp.yml
+email-helpers/
+uiowa-bar/

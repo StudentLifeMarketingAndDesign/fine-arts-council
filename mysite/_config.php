@@ -22,6 +22,9 @@ SiteTree::enable_nested_urls();
 
 Authenticator::unregister('MemberAuthenticator');
 Authenticator::set_default_authenticator('SAMLAuthenticator');
+
+Email::set_mailer( new SmtpMailer() );
+
 if(Director::isLive()) {
 	Director::forceSSL();
 }
