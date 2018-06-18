@@ -1,0 +1,6 @@
+SmtpMailer:
+  host: email.uiowa.edu:587
+  user: imuweb@uiowa.edu
+  password: generic_wifeless_impress
+  encryption: tls
+  charset: UTF-8
