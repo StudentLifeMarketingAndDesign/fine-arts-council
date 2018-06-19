@@ -916,12 +916,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-saml.git",
-                "reference": "ed9d87e125a5a0c61b3970513918c41f288a94bd"
+                "reference": "6a02dd4d4feadc044f804c377e28b13d9336dea6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/silverstripe-saml/zipball/ed9d87e125a5a0c61b3970513918c41f288a94bd",
-                "reference": "ed9d87e125a5a0c61b3970513918c41f288a94bd",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/silverstripe-saml/zipball/6a02dd4d4feadc044f804c377e28b13d9336dea6",
+                "reference": "6a02dd4d4feadc044f804c377e28b13d9336dea6",
                 "shasum": ""
             },
             "require": {
@@ -939,7 +939,7 @@
             "suggest": {
                 "silverstripe/ldap": "Synchronise extra user attributes from Active Directory with LDAP"
             },
-            "type": "silverstripe-module",
+            "type": "silverstripe-vendormodule",
             "extra": {
                 "branch-alias": {
                     "dev-master": "1.0.x-dev"
@@ -976,7 +976,7 @@
             "support": {
                 "source": "https://github.com/StudentLifeMarketingAndDesign/silverstripe-saml/tree/md"
             },
-            "time": "2018-06-19T17:08:06+00:00"
+            "time": "2018-06-19T19:00:37+00:00"
         },
         {
             "name": "monolog/monolog",
