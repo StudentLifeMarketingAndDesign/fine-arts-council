@@ -4,50 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2b8a0a7ea9ae11be97ab039c9864de13",
+    "content-hash": "f2bfa2290d40b6c1c6c9d34b0df35b0f",
     "packages": [
-        {
-            "name": "colymba/gridfield-bulk-editing-tools",
-            "version": "v2.1.10",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/colymba/GridFieldBulkEditingTools.git",
-                "reference": "81a524310dc9111d7ac601d4cb5ad898a8037625"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/colymba/GridFieldBulkEditingTools/zipball/81a524310dc9111d7ac601d4cb5ad898a8037625",
-                "reference": "81a524310dc9111d7ac601d4cb5ad898a8037625",
-                "shasum": ""
-            },
-            "require": {
-                "silverstripe/framework": ">=3.1"
-            },
-            "type": "silverstripe-module",
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "BSD Simplified"
-            ],
-            "authors": [
-                {
-                    "name": "Thierry Francois",
-                    "homepage": "http://colymba.com"
-                },
-                {
-                    "name": "GitHub contributors",
-                    "homepage": "https://github.com/colymba/GridFieldBulkEditingTools/contributors"
-                }
-            ],
-            "description": "SilverStripe 3 GridField component to upload images and edit records in bulk",
-            "homepage": "https://github.com/colymba/GridFieldBulkEditingTools",
-            "keywords": [
-                "Image upload",
-                "bulk upload",
-                "gridfield bulk upload",
-                "silverstripe"
-            ],
-            "time": "2017-07-03T06:19:42+00:00"
-        },
         {
             "name": "composer/ca-bundle",
             "version": "1.1.1",
@@ -910,16 +868,15 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "5011c11bc0b3ef55b99ae8ad17e0814ca05b289b"
+                "reference": "ee68bbd91714c5357853661a4b6768fc5b66ea72"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/5011c11bc0b3ef55b99ae8ad17e0814ca05b289b",
-                "reference": "5011c11bc0b3ef55b99ae8ad17e0814ca05b289b",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/ee68bbd91714c5357853661a4b6768fc5b66ea72",
+                "reference": "ee68bbd91714c5357853661a4b6768fc5b66ea72",
                 "shasum": ""
             },
             "require": {
-                "colymba/gridfield-bulk-editing-tools": "*",
                 "dnadesign/silverstripe-elemental": "*",
                 "edgarindustries/youtubefield": "*",
                 "gorriecoe/silverstripe-webfonts": "*",
@@ -951,7 +908,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/ss4.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2018-06-19T17:12:34+00:00"
+            "time": "2018-06-19T18:52:16+00:00"
         },
         {
             "name": "md/saml",
