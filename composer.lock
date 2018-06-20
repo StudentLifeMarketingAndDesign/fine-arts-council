@@ -868,12 +868,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "ee68bbd91714c5357853661a4b6768fc5b66ea72"
+                "reference": "72f53c714aa8dd26439e04fcadc088a2319ad4c9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/ee68bbd91714c5357853661a4b6768fc5b66ea72",
-                "reference": "ee68bbd91714c5357853661a4b6768fc5b66ea72",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/72f53c714aa8dd26439e04fcadc088a2319ad4c9",
+                "reference": "72f53c714aa8dd26439e04fcadc088a2319ad4c9",
                 "shasum": ""
             },
             "require": {
@@ -903,12 +903,17 @@
                 "undefinedoffset/sortablegridfield": "*"
             },
             "type": "silverstripe-vendormodule",
+            "extra": {
+                "expose": [
+                    "src/favicons/"
+                ]
+            },
             "description": "The University of Iowa Division of Student Life Project Code and Theme",
             "support": {
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/ss4.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2018-06-19T18:52:16+00:00"
+            "time": "2018-06-20T14:06:23+00:00"
         },
         {
             "name": "md/saml",
