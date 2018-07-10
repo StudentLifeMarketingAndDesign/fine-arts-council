@@ -10,3 +10,12 @@ body{
 .sidenav__section-title{
 	border-color: darken($highlight,10);
 }
+
+.button, input.action {
+	color: lighten($highlight, 20);
+}
+
+
+#uiowa-bar #uiowa-search .links a{
+	color: white;
+}

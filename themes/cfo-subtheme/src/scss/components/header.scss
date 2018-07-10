@@ -57,17 +57,7 @@
 .header__container {
 	position: relative;
 	z-index: 10;
-	&:after {
-		transition: background-color 1s;
-		background-color: $highlight;
-		display: block;
-		width: calc(100% - 1px);
-		height: 5px;
-		position: absolute;
-		bottom: 0;
-		left: 0;
-		content: "";
-	}
+
 
 	&--dark-header {
 		background: #242424;
@@ -99,7 +89,6 @@
 
 .header {
 	position: relative;
-	overflow: hidden;
 	transition: max-height 0.2s linear;
 	margin-bottom: rem-calc(20);
 
