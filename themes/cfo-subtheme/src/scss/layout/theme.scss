@@ -1,0 +1,12 @@
+body{
+	background-size: cover;
+	background-color: #c02e84;
+}
+.main-content__container{
+	background: white;
+	box-shadow: inset 0px 10px 13px -7px rgba(0,0,0,0.31);
+}
+
+.sidenav__section-title{
+	border-color: darken($highlight,10);
+}
