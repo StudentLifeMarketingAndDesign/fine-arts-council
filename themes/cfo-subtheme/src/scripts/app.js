@@ -169,7 +169,7 @@ $(".nav__link--search").click(function(){
 	toggleSearchClasses();
 	if($("#mobile-nav__wrapper").hasClass("mobile-nav__wrapper--mobile-menu-is-active")){
 		// toggleMobileMenuClasses();
-		$("#site-search").appendTo('#header').addClass('site-search--mobile');
+		$("#site-search").appendTo('#header__title-container').addClass('site-search--mobile');
 	}
 	document.getElementById("site-search__input").focus();
 });
@@ -221,8 +221,10 @@ $(".nav__toggle--search").click(function(){
 
 
 	//append our site search div to the header.
-	$("#site-search").appendTo('#header').addClass('site-search--mobile');
+	$("#site-search").appendTo('#header__title-container').addClass('site-search--mobile');
 	document.getElementById("site-search__input").focus();
+
+	//hide page title
 });
 
 //If we're resizing from mobile to anything else, toggle the mobile search if it's active.
@@ -233,14 +235,14 @@ $(window).on('changed.zf.mediaquery', function(event, newSize, oldSize) {
 		$("#site-search").removeClass("site-search--mobile");
 		$("#site-search").addClass("site-search--desktop");
 
-		$("#site-search").appendTo("#nav");
+		$("#site-search").appendTo("#header__title-container");
 
 
 		if($("#site-search").hasClass("site-search--is-active")){
 			// toggleSearchClasses();
 		}
 	 }else if(newSize == "mobile"){
-		$("#site-search").appendTo('#header');
+		$("#site-search").appendTo('#header__title-container');
 		$("#site-search").removeClass("site-search--desktop");
 		$("#site-search").addClass("site-search--mobile");
 		if($("#site-search").hasClass("site-search--is-active")){

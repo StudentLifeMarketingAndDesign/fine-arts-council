@@ -106,7 +106,7 @@
 @import "components/sidenav";
 @import "components/tables";
 // @import "components/navigation";
-@import "components/site-search";
+// @import "components/site-search";
 @import "components/division-bar";
 @import "components/page-results";
 @import "components/pagination";
@@ -134,7 +134,7 @@
 
 @import "components/elements/elements";
 // Layouts
-// @import "layouts/header";
+
 @import "layouts/homepage";
 @import "layouts/footer";
 @import "layouts/landingpage";
@@ -153,4 +153,5 @@
 @import "components/nav";
 @import "components/header";
 @import "components/offcanvas";
+@import "components/site-search-cfo";
 @import "layout/theme";
