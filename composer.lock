@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d4db75f8ae7c8c11b1cd6bdba27e8bad",
+    "content-hash": "cc2c79d3b058cded96f648b344098552",
     "packages": [
         {
             "name": "composer/ca-bundle",
@@ -1011,12 +1011,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "aa21573ff1c2a60a4a8626e90d8bb0ed1bb6bb5b"
+                "reference": "41bef5cec130409438ab3ff05b7f7dcf9ddc9e6b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/aa21573ff1c2a60a4a8626e90d8bb0ed1bb6bb5b",
-                "reference": "aa21573ff1c2a60a4a8626e90d8bb0ed1bb6bb5b",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/41bef5cec130409438ab3ff05b7f7dcf9ddc9e6b",
+                "reference": "41bef5cec130409438ab3ff05b7f7dcf9ddc9e6b",
                 "shasum": ""
             },
             "require": {
@@ -1058,7 +1058,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/ss4.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2018-08-07T19:25:34+00:00"
+            "time": "2018-08-07T21:11:47+00:00"
         },
         {
             "name": "md/saml",
