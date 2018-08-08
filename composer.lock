@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "composer/ca-bundle",
-            "version": "1.1.1",
+            "version": "1.1.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/ca-bundle.git",
-                "reference": "d2c0a83b7533d6912e8d516756ebd34f893e9169"
+                "reference": "46afded9720f40b9dc63542af4e3e43a1177acb0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/d2c0a83b7533d6912e8d516756ebd34f893e9169",
-                "reference": "d2c0a83b7533d6912e8d516756ebd34f893e9169",
+                "url": "https://api.github.com/repos/composer/ca-bundle/zipball/46afded9720f40b9dc63542af4e3e43a1177acb0",
+                "reference": "46afded9720f40b9dc63542af4e3e43a1177acb0",
                 "shasum": ""
             },
             "require": {
@@ -60,7 +60,7 @@
                 "ssl",
                 "tls"
             ],
-            "time": "2018-03-29T19:57:20+00:00"
+            "time": "2018-08-08T08:57:40+00:00"
         },
         {
             "name": "composer/installers",
@@ -1011,12 +1011,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "41bef5cec130409438ab3ff05b7f7dcf9ddc9e6b"
+                "reference": "c03cd339c0b8110a92c857be5ce01300ee22c61d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/41bef5cec130409438ab3ff05b7f7dcf9ddc9e6b",
-                "reference": "41bef5cec130409438ab3ff05b7f7dcf9ddc9e6b",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/c03cd339c0b8110a92c857be5ce01300ee22c61d",
+                "reference": "c03cd339c0b8110a92c857be5ce01300ee22c61d",
                 "shasum": ""
             },
             "require": {
@@ -1058,7 +1058,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/ss4.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2018-08-07T21:11:47+00:00"
+            "time": "2018-08-08T16:29:40+00:00"
         },
         {
             "name": "md/saml",
