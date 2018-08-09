@@ -700,6 +700,56 @@
             "time": "2018-01-30T20:03:17+00:00"
         },
         {
+            "name": "jonom/silverstripe-betternavigator",
+            "version": "4.1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jonom/silverstripe-betternavigator.git",
+                "reference": "db3c7d8e39a929137be559766c6f4e71ad7077bc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jonom/silverstripe-betternavigator/zipball/db3c7d8e39a929137be559766c6f4e71ad7077bc",
+                "reference": "db3c7d8e39a929137be559766c6f4e71ad7077bc",
+                "shasum": ""
+            },
+            "require": {
+                "silverstripe/framework": "^4.0"
+            },
+            "type": "silverstripe-vendormodule",
+            "extra": {
+                "installer-name": "betternavigator",
+                "expose": [
+                    "css",
+                    "images",
+                    "javascript"
+                ]
+            },
+            "autoload": {
+                "psr-4": {
+                    "JonoM\\BetterNavigator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Jonathon Menz",
+                    "homepage": "http://jonathonmenz.com"
+                }
+            ],
+            "description": "Front-end utility menu for SilverStripe websites featuring administration and development tools",
+            "keywords": [
+                "BetterNavigator",
+                "SilverStripeNavigator",
+                "navigator",
+                "silverstripe"
+            ],
+            "time": "2018-04-06T22:41:08+00:00"
+        },
+        {
             "name": "league/csv",
             "version": "8.2.3",
             "source": {
@@ -1011,12 +1061,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/StudentLifeMarketingAndDesign/division-project.git",
-                "reference": "edcef6abbab862c99936ca02d7f0cc394e61a5e1"
+                "reference": "3d1ff0ea0a6213b0da4bbdfac24bb62b980fdc6e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/edcef6abbab862c99936ca02d7f0cc394e61a5e1",
-                "reference": "edcef6abbab862c99936ca02d7f0cc394e61a5e1",
+                "url": "https://api.github.com/repos/StudentLifeMarketingAndDesign/division-project/zipball/3d1ff0ea0a6213b0da4bbdfac24bb62b980fdc6e",
+                "reference": "3d1ff0ea0a6213b0da4bbdfac24bb62b980fdc6e",
                 "shasum": ""
             },
             "require": {
@@ -1024,6 +1074,7 @@
                 "edgarindustries/youtubefield": "*",
                 "gorriecoe/silverstripe-webfonts": "*",
                 "jonom/focuspoint": "*",
+                "jonom/silverstripe-betternavigator": "*",
                 "md/ac-json-events": "dev-ss4.x-ui",
                 "md/division-analytics": "1.2.x",
                 "md/saml": "dev-md",
@@ -1058,7 +1109,7 @@
                 "source": "https://github.com/StudentLifeMarketingAndDesign/division-project/tree/ss4.x",
                 "issues": "https://github.com/StudentLifeMarketingAndDesign/division-project/issues"
             },
-            "time": "2018-08-08T19:19:54+00:00"
+            "time": "2018-08-09T18:29:23+00:00"
         },
         {
             "name": "md/saml",
