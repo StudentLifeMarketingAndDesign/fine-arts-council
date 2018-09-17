@@ -42,7 +42,7 @@
     <% end_if %>
 
     $TypeKitScript
-    <link rel="stylesheet" href="{$ThemeDir}/dist/css/main.css">
+    <link rel="stylesheet" href="{$ThemeDir}/dist/css/main-1.css">
   </head>
   <body class="{$ClassName} {$ClassAncestry} body--{$DarkLight} action--{$Action}">
     <a class="skip-link" href="#main-content__container">Skip to Main Content</a>
