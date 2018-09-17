@@ -2,6 +2,9 @@
 	@include menu-base;
 	@include menu-direction(vertical);
 
+	//Prevents nav from covering up the close button:
+	width: 92%;
+
 	&__item{
 		// border-bottom: 1px solid #ccc;
 
